@@ -10,13 +10,15 @@ Fixes a fatal error message on the dashboard.
 
 == Description ==
 
-Some people have been experiencing an error message on their WordPress 2.5.0 dashboard. This is due to their dashboard widget options getting corrupted. This plugin resets those options.
+Some people have been experiencing an error message on their WordPress 2.5.0 dashboard. This is due to their dashboard widget options getting corrupted. This plugin resets those options so you can use your dashboard again.
 
-`Fatal error: Cannot use string offset as an array in [...]/wp-admin/includes/dashboard.php on line 46`
+`Fatal error: Cannot use string offset as an array in
+[...]/wp-admin/includes/dashboard.php on line 46`
+
 
 Just upload and activate this plugin and it'll fix it.
 
-This plugin will hopefully be (made obsolete)[http://trac.wordpress.org/ticket/6578] with the release of WordPress 2.5.1.
+This plugin will hopefully be [made obsolete](http://trac.wordpress.org/ticket/6578) with the release of WordPress 2.5.1.
 
 == Installation ==
 
