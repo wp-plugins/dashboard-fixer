@@ -14,7 +14,7 @@ Some people have been experiencing an error message on their WordPress 2.5.0 das
 
 `Fatal error: Cannot use string offset as an array in
 [...]/wp-admin/includes/dashboard.php on line 46`
-
+.
 
 Just upload and activate this plugin and it'll fix it.
 
