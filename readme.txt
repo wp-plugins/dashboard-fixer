@@ -18,6 +18,8 @@ Some people have been experiencing an error message on their WordPress 2.5.0 das
 
 Just upload and activate this plugin and it'll fix it.
 
+**You only need to use this plugin if you are getting the above error message.** Using this plugin will **NOT** prevent the error from occuring.
+
 This plugin will hopefully be [made obsolete](http://trac.wordpress.org/ticket/6578) with the release of WordPress 2.5.1.
 
 == Installation ==
@@ -26,6 +28,10 @@ This plugin will hopefully be [made obsolete](http://trac.wordpress.org/ticket/6
 
 Extract all files from the ZIP file and then upload it to `/wp-content/plugins/`.
 
-Then just visit your admin area and activate the plugin. It'll fix your error then.
+Open up your browser and type in the URL to your admin area and then "plugins.php", like this:
+
+`http://yoursite.com/path/to/wordpress/wp-admin/plugins.php`
+
+Scroll down and activate the plugin. It'll fix your error and then automatically deactivate.
 
 **See Also:** ["Installing Plugins" article on the WP Codex](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins)

@@ -5,7 +5,7 @@
 Plugin Name:  Dashboard Fixer
 Plugin URI:   http://wordpress.org/extend/plugins/dashboard-fixer/
 Description:  Fixes the <code>Fatal error: Cannot use string offset as an array in [...]/wp-admin/includes/dashboard.php on line 46</code> error message. For WordPress 2.5.0 <strong>ONLY</strong>.
-Version:      1.0.0
+Version:      1.0.1
 Author:       Viper007Bond
 Author URI:   http://www.viper007bond.com/
 
@@ -37,10 +37,12 @@ class DashboardFixer {
 			echo 'Your <a href="index.php">dashboard</a> should now be fixed.';
 		}
 
-		if ( function_exists('deactivate_plugins') ) 
+		if ( function_exists('deactivate_plugins') ) {
 			deactivate_plugins( 'dashboard-fixer/dashboard-fixer.php', 'dashboard-fixer.php' );
+			echo ' This plugin has been automatically deactivated.';
+		}
 
-		echo ' This plugin has been automatically deactivated.</p></div>';
+		echo '</p></div>';
 	}
 }
 
