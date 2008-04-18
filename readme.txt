@@ -20,7 +20,7 @@ Just upload and activate this plugin and it'll fix it.
 
 **You only need to use this plugin if you are getting the above error message.** Using this plugin will **NOT** prevent the error from occuring.
 
-This plugin will hopefully be [made obsolete](http://trac.wordpress.org/ticket/6578) with the release of WordPress 2.5.1.
+This plugin is ONLY for WordPress 2.5.0. The issue has [been fixed](http://trac.wordpress.org/changeset/7722) for WordPress 2.5.1.
 
 == Installation ==
 
